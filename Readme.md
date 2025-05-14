@@ -10,7 +10,7 @@ Trong file viết tweak (Menu), thêm định nghĩa thư viện:
 #import "Callme.h"
 
 
-Chúng ta có thể sử dụng chúng theo cú pháp sau:
+Chúng ta có thể sử dụng chúng theo cú pháp sau  
 DobbyHook((void *)getRealOffset(methodOffset), (void *)IsPlayer, (void **)&_IsPlayer);
 
 DobbyHook((void *)getRealOffset(0x1234567), (void *)IsPlayer, (void **)&_IsPlayer);
